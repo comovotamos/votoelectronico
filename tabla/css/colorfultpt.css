@@ -1,0 +1,1700 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,800,700&subset=latin,cyrillic-ext);
+@font-face {
+    font-family: 'exo_2.0black';
+    src: url('../fonts/exo2.0-black.eot');
+    src: url('../fonts/exo2.0-black.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-black.woff') format('woff'), url('../fonts/exo2.0-black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0black_italic';
+    src: url('../fonts/exo2.0-blackitalic.eot');
+    src: url('../fonts/exo2.0-blackitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-blackitalic.woff') format('woff'), url('../fonts/exo2.0-blackitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0bold';
+    src: url('../fonts/exo2.0-bold.eot');
+    src: url('../fonts/exo2.0-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-bold.woff') format('woff'), url('../fonts/exo2.0-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0bold_italic';
+    src: url('../fonts/exo2.0-bolditalic.eot');
+    src: url('../fonts/exo2.0-bolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-bolditalic.woff') format('woff'), url('../fonts/exo2.0-bolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0extra_bold';
+    src: url('../fonts/exo2.0-extrabold.eot');
+    src: url('../fonts/exo2.0-extrabold.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-extrabold.woff') format('woff'), url('../fonts/exo2.0-extrabold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0extra_bold_italic';
+    src: url('../fonts/exo2.0-extrabolditalic.eot');
+    src: url('../fonts/exo2.0-extrabolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-extrabolditalic.woff') format('woff'), url('../fonts/exo2.0-extrabolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0extra_light';
+    src: url('../fonts/exo2.0-extralight.eot');
+    src: url('../fonts/exo2.0-extralight.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-extralight.woff') format('woff'), url('../fonts/exo2.0-extralight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0extra_light_italic';
+    src: url('../fonts/exo2.0-extralightitalic.eot');
+    src: url('../fonts/exo2.0-extralightitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-extralightitalic.woff') format('woff'), url('../fonts/exo2.0-extralightitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0italic';
+    src: url('../fonts/exo2.0-italic.eot');
+    src: url('../fonts/exo2.0-italic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-italic.woff') format('woff'), url('../fonts/exo2.0-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0light';
+    src: url('../fonts/exo2.0-light.eot');
+    src: url('../fonts/exo2.0-light.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-light.woff') format('woff'), url('../fonts/exo2.0-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0light_italic';
+    src: url('../fonts/exo2.0-lightitalic.eot');
+    src: url('../fonts/exo2.0-lightitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-lightitalic.woff') format('woff'), url('../fonts/exo2.0-lightitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0medium';
+    src: url('../fonts/exo2.0-medium.eot');
+    src: url('../fonts/exo2.0-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-medium.woff') format('woff'), url('../fonts/exo2.0-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0medium_italic';
+    src: url('../fonts/exo2.0-mediumitalic.eot');
+    src: url('../fonts/exo2.0-mediumitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-mediumitalic.woff') format('woff'), url('../fonts/exo2.0-mediumitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0regular';
+    src: url('../fonts/exo2.0-regular.eot');
+    src: url('../fonts/exo2.0-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-regular.woff') format('woff'), url('../fonts/exo2.0-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0semi_bold';
+    src: url('../fonts/exo2.0-semibold.eot');
+    src: url('../fonts/exo2.0-semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-semibold.woff') format('woff'), url('../fonts/exo2.0-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0semi_bold_italic';
+    src: url('../fonts/exo2.0-semibolditalic.eot');
+    src: url('../fonts/exo2.0-semibolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-semibolditalic.woff') format('woff'), url('../fonts/exo2.0-semibolditalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0thin';
+    src: url('../fonts/exo2.0-thin.eot');
+    src: url('../fonts/exo2.0-thin.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-thin.woff') format('woff'), url('../fonts/exo2.0-thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_2.0thin_italic';
+    src: url('../fonts/exo2.0-thinitalic.eot');
+    src: url('../fonts/exo2.0-thinitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/exo2.0-thinitalic.woff') format('woff'), url('../fonts/exo2.0-thinitalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.description-range {
+  padding: 1em;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
+    line-height: 1;
+    height: 100%;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.title {
+    font-size: 3em;
+    font-family: Open Sans;
+    color: #555;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.title2 {
+    font-size: 2em;
+    font-family: Open Sans;
+    color: #555;
+    text-align: center;
+    height: 2em;
+    line-height: 2em;
+    font-weight: 100;
+}
+
+
+/* Colorful Pricing Tables*/
+
+.wrapper-colorful {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0em auto 10em auto;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.wrapper-colorful ul {
+    position: relative;
+    padding-bottom: 3em;
+    width: 33%;
+    min-width: 5.25em;
+    list-style: none;
+    float: left;
+    font-family: Open Sans;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -mos-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-animation: start 0.5s ease forwards;
+    -moz-animation: start 0.5s ease forwards;
+    -mos-animation: start 0.5s ease forwards;
+    -o-animation: start 0.5s ease forwards;
+    animation: start 0.5s ease forwards;
+    -webkit-transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -mos-transform: scale(1, 0);
+    -o-transform: scale(1, 0);
+    transform: scale(1, 0);
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.wrapper-colorful .basic {
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -mos-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    border-right: 1px solid #fff;
+}
+
+.wrapper-colorful .premium {
+    -webkit-animation-delay: 0.15s;
+    -moz-animation-delay: 0.15s;
+    -mos-animation-delay: 0.15s;
+    -o-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+    border-right: 1px solid #fff;
+}
+
+.wrapper-colorful .plus {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -mos-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    border-right: 1px solid #fff;
+}
+
+.wrapper-colorful .business {
+    -webkit-animation-delay: 0.45s;
+    -moz-animation-delay: 0.45s;
+    -mos-animation-delay: 0.45s;
+    -o-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.wrapper-colorful ul li {
+    -webkit-animation: start-li 0.5s ease forwards;
+    -moz-animation: start-li 0.5s ease forwards;
+    -mos-animation: start-li 0.5s ease forwards;
+    -o-animation: start-li 0.5s ease forwards;
+    animation: start-li 0.5s ease forwards;
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -mos-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+    transform: translateX(-200%);
+}
+
+.wrapper-colorful .basic li:nth-child(1) {
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    -mos-animation-delay: 0.1s;
+    -o-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.wrapper-colorful .basic li:nth-child(2), .wrapper-colorful .premium li:nth-child(1) {
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -mos-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.wrapper-colorful .basic li:nth-child(3), .wrapper-colorful .premium li:nth-child(2), .wrapper-colorful .plus li:nth-child(1) {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -mos-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.wrapper-colorful .basic li:nth-child(4), .wrapper-colorful .premium li:nth-child(3), .wrapper-colorful .plus li:nth-child(2), .wrapper-colorful .business li:nth-child(1) {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -mos-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.wrapper-colorful .basic li:nth-child(5), .wrapper-colorful .premium li:nth-child(4), .wrapper-colorful .plus li:nth-child(3), .wrapper-colorful .business li:nth-child(2) {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -mos-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.wrapper-colorful .basic li:nth-child(6), .wrapper-colorful .premium li:nth-child(5), .wrapper-colorful .plus li:nth-child(4), .wrapper-colorful .business li:nth-child(3) {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -mos-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.wrapper-colorful .basic li:nth-child(7), .wrapper-colorful .premium li:nth-child(6), .wrapper-colorful .plus li:nth-child(5), .wrapper-colorful .business li:nth-child(4) {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    -mos-animation-delay: 0.7s;
+    -o-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+.wrapper-colorful .basic li:nth-child(8), .wrapper-colorful .premium li:nth-child(7), .wrapper-colorful .plus li:nth-child(6), .wrapper-colorful .business li:nth-child(5) {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -mos-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.wrapper-colorful .basic li:nth-child(9), .wrapper-colorful .premium li:nth-child(8), .wrapper-colorful .plus li:nth-child(7), .wrapper-colorful .business li:nth-child(6) {
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -mos-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.wrapper-colorful .basic li:nth-child(10), .wrapper-colorful .premium li:nth-child(9), .wrapper-colorful .plus li:nth-child(8), .wrapper-colorful .business li:nth-child(7) {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -mos-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.wrapper-colorful .basic li:nth-child(11), .wrapper-colorful .premium li:nth-child(10), .wrapper-colorful .plus li:nth-child(9), .wrapper-colorful .business li:nth-child(8) {
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+    -mos-animation-delay: 1.1s;
+    -o-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+
+.wrapper-colorful .basic li:nth-child(12), .wrapper-colorful .premium li:nth-child(11), .wrapper-colorful .plus li:nth-child(10), .wrapper-colorful .business li:nth-child(9) {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -mos-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+.wrapper-colorful .premium li:nth-child(12), .wrapper-colorful .plus li:nth-child(11), .wrapper-colorful .business li:nth-child(10) {
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    -mos-animation-delay: 1.3s;
+    -o-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+
+.wrapper-colorful .plus li:nth-child(12), .wrapper-colorful .business li:nth-child(11) {
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    -mos-animation-delay: 1.4s;
+    -o-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.wrapper-colorful .business li:nth-child(12) {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -mos-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+@-webkit-keyframes start {
+    0% {
+        -webkit-transform: scale(1, 0);
+    }
+    100% {
+        -webkit-transform: scale(1, 1);
+    }
+}
+
+@-moz-keyframes start {
+    0% {
+        -moz-transform: scale(1, 0);
+    }
+    100% {
+        -moz-transform: scale(1, 1);
+    }
+}
+
+@-mos-keyframes start {
+    0% {
+        -mos-transform: scale(1, 0);
+    }
+    100% {
+        -mos-transform: scale(1, 1);
+    }
+}
+
+@-o-keyframes start {
+    0% {
+        -o-transform: scale(1, 0);
+    }
+    100% {
+        -o-transform: scale(1, 1);
+    }
+}
+
+@keyframes start {
+    0% {
+        transform: scale(1, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-webkit-keyframes start-li {
+    0% {
+        -webkit-transform: translateX(-200%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+@-moz-keyframes start-li {
+    0% {
+        -moz-transform: translateX(-200%);
+    }
+    100% {
+        -moz-transform: translateX(0%);
+    }
+}
+
+@-mos-keyframes start-li {
+    0% {
+        -mos-transform: translateX(-200%);
+    }
+    100% {
+        -mos-transform: translateX(0%);
+    }
+}
+
+@-o-keyframes start-li {
+    0% {
+        -o-transform: translateX(-200%);
+    }
+    100% {
+        -o-transform: translateX(0%);
+    }
+}
+
+@keyframes start-li {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.wrapper-colorful ul li {
+    color: #eee;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* mobile */
+
+@media screen and (max-width:1100px) {
+    .wrapper-colorful {
+        width: 100%;
+    }
+    .wrapper-colorful ul {
+        position: relative;
+        width: 100%;
+        //min-width: 5.25em;
+        list-style: none;
+        float: left;
+        font-family: Open Sans;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -mos-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .wrapper-colorful {
+        width: 100%;
+    }
+    .wrapper-colorful ul {
+        position: relative;
+        width: 100%;
+        min-width: 5.25em;
+        list-style: none;
+        float: left;
+        font-family: Open Sans;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -mos-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .wrapper-colorful ul:hover {
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        -mos-transform: scale(1, 1);
+        -o-transform: scale(1, 1);
+        transform: scale(1, 1);
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        z-index: 5;
+    }
+}
+
+.wrapper-colorful .basic {
+    position: relative;
+    background: #005C5A;
+}
+
+.wrapper-colorful .premium {
+    position: relative;
+    background: #199C7B;
+}
+
+.wrapper-colorful .plus {
+    position: relative;
+    background: #F37100;
+}
+
+.wrapper-colorful .business {
+    position: relative;
+    background: #ED4D13;
+}
+
+.wrapper-colorful ul .icon {
+    position: relative;
+    height: 10em;
+    width: 10em;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 1em auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.wrapper-colorful .basic .icon:before {
+    position: absolute;
+    top: .8em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '\f003';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful .premium .icon:before {
+    position: absolute;
+    top: .9em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    content: '\f044';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful .plus .icon:before {
+    position: absolute;
+    top: .75em;
+    bottom: 0;
+    left: 0em;
+    right: 0;
+    margin: auto;
+    content: '\f108';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful .business .icon:before {
+    position: absolute;
+    top: .75em;
+    bottom: 0;
+    left: -0.1em;
+    right: 0;
+    margin: auto;
+    content: '\f135';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful .basic:hover .icon:before {
+    color: #005C5A;
+}
+
+.wrapper-colorful .premium:hover .icon:before {
+    color: #199C7B;
+}
+
+.wrapper-colorful .plus:hover .icon:before {
+    color: #F37100;
+}
+
+.wrapper-colorful .business:hover .icon:before {
+    color: #ED4D13;
+}
+
+.wrapper-colorful ul .icon:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-transform: scale(0, 0);
+    -moz-transform: scale(0, 0);
+    -mos-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.wrapper-colorful ul:hover .icon:after {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -mos-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.wrapper-colorful ul .name {
+    height: 2em;
+    line-height: 2em;
+    -webkit-transition: all 0.25s ease 0.15s;
+    -moz-transition: all 0.25s ease 0.15s;
+    -mos-transition: all 0.25s ease 0.15s;
+    -o-transition: all 0.25s ease 0.15s;
+    transition: all 0.25s ease 0.15s;
+}
+
+.wrapper-colorful ul:hover .name {
+    -webkit-box-shadow: inset 0px -2em 0px 0px rgba(239, 239, 239, 0.25);
+    -moz-box-shadow: inset 0px -2em 0px 0px rgba(239, 239, 239, 0.25);
+    box-shadow: inset 0px -2em 0px 0px rgba(239, 239, 239, 0.25);
+}
+
+.wrapper-colorful ul .name h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful ul:hover .name h1 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.wrapper-colorful ul .price-col {
+    height: 1.5em;
+    line-height: 1.25em;
+    font-size: 4em;
+    font-family: 'exo_2.0extra_light';
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful ul .price-col .cost {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 0px -0em 0px 0px rgba(239, 239, 239, 1);
+    -moz-box-shadow: inset 0px -0em 0px 0px rgba(239, 239, 239, 1);
+    box-shadow: inset 0px -0em 0px 0px rgba(239, 239, 239, 1);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful ul:hover .price-col .cost {
+    position: relative;
+    -webkit-box-shadow: inset 0px -1.5em 0px 0px rgba(239, 239, 239, 0.75);
+    -moz-box-shadow: inset 0px -1.5em 0px 0px rgba(239, 239, 239, 0.75);
+    box-shadow: inset 0px -1.5em 0px 0px rgba(239, 239, 239, 0.75);
+}
+
+.wrapper-colorful .basic:hover .price-col .cost {
+    color: #005C5A;
+}
+
+.wrapper-colorful .premium:hover .price-col .cost {
+    color: #199C7B;
+}
+
+.wrapper-colorful .plus:hover .price-col .cost {
+    color: #F37100;
+}
+
+.wrapper-colorful .business:hover .price-col .cost {
+    color: #ED4D13;
+}
+
+.wrapper-colorful ul .price-col .cost .valuta {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 400;
+    display: inline-table;
+    vertical-align: super;
+}
+
+.wrapper-colorful ul .price-col .cost .mounthly {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    display: inline-table;
+    text-transform: uppercase
+}
+
+.wrapper-colorful ul .description-range {
+    /*height: 2em;*/
+    line-height: 2em;
+}
+
+/*.wrapper-colorful ul .description-range:after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+    left: 0%;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}*/
+
+.wrapper-colorful ul .description-range:hover:after {
+    width: 100%;
+}
+
+.wrapper-colorful .description-range:before {
+    position: absolute;
+    font-family: FontAwesome;
+    font-weight: normal;
+    width: 2em;
+    font-size: 1em;
+    left: -1.5em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful .description-range:hover:before {
+    left: 1em;
+}
+
+/*.wrapper-colorful .description-range:nth-child(3):before {
+    content: '\f0a0';
+}
+
+.wrapper-colorful .description-range:nth-child(4):before {
+    content: '\f1d9';
+}
+
+.wrapper-colorful .description-range:nth-child(5):before {
+    content: '\f003';
+}
+
+.wrapper-colorful .description-range:nth-child(6):before {
+    content: '\f0ac';
+}
+
+.wrapper-colorful .description-range:nth-child(7):before {
+    content: '\f023';
+}
+
+.wrapper-colorful .description-range:nth-child(8):before {
+    content: '\f133';
+}
+
+.wrapper-colorful .description-range:nth-child(9):before {
+    content: '\f0e8';
+}
+
+.wrapper-colorful .description-range:before {
+    content: '\f006';
+}*/
+
+.wrapper-colorful ul .purchase {
+    height: 3em;
+    line-height: 3em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrapper-colorful ul .purchase a {
+    position: relative;
+    padding: 0.5em;
+    border: 4px solid #efefef;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -mos-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper-colorful ul .purchase a {
+    color: #fff;
+    background: #005C5A;
+    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
+    -moz-box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
+    box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
+}
+
+.wrapper-colorful .premium .purchase a {
+    color: #fff;
+    background: #199C7B;
+}
+
+.wrapper-colorful .plus .purchase a {
+    color: #fff;
+    background: #F37100;
+}
+
+.wrapper-colorful .business .purchase a {
+    color: #fff;
+    background: #ED4D13;
+}
+
+.wrapper-colorful ul .purchase a:hover {
+    color: #005C5A;
+    -webkit-box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
+    -moz-box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
+    box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
+}
+
+.wrapper-colorful .premium .purchase a:hover {
+    color: #199C7B;
+}
+
+.wrapper-colorful .plus .purchase a:hover {
+    color: #F37100;
+}
+
+.wrapper-colorful .business .purchase a:hover {
+    color: #ED4D13;
+}
+
+.wrapper-colorful ul .purchase:before {
+    position: absolute;
+    content: '';
+    background: #efefef;
+    width: 50%;
+    height: 1em;
+    bottom: 1em;
+    left: 25%;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful ul:hover .purchase:before {
+    position: absolute;
+    content: '';
+    background: #efefef;
+    width: 90%;
+    height: 1em;
+    left: 5%;
+}
+
+
+/* Colorful-2 Pricing Tables with IMG*/
+
+.wrapper-colorful-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0em auto;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: url('../bg2.jpg') center center no-repeat;
+    -moz-background-size: cover;
+    /* Firefox до 4.0 */
+    -webkit-background-size: cover;
+    /* Safari и Chrome */
+    -o-background-size: cover;
+    /* Opera до версии 10.53 */
+    background-size: cover;
+    /* CSS3 */
+}
+
+.wrapper-colorful-bg ul {
+    position: relative;
+    width: 25%;
+    min-width: 5.25em;
+    list-style: none;
+    float: left;
+    font-family: Open Sans;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -mos-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrapper-colorful-bg .basic {
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -mos-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.wrapper-colorful-bg .premium {
+    -webkit-animation-delay: 0.15s;
+    -moz-animation-delay: 0.15s;
+    -mos-animation-delay: 0.15s;
+    -o-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.wrapper-colorful-bg .plus {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -mos-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.wrapper-colorful-bg .business {
+    -webkit-animation-delay: 0.45s;
+    -moz-animation-delay: 0.45s;
+    -mos-animation-delay: 0.45s;
+    -o-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.wrapper-colorful-bg ul li {
+    -webkit-animation: start-li 0.5s ease forwards;
+    -moz-animation: start-li 0.5s ease forwards;
+    -mos-animation: start-li 0.5s ease forwards;
+    -o-animation: start-li 0.5s ease forwards;
+    animation: start-li 0.5s ease forwards;
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    -mos-transform: translateX(-200%);
+    -o-transform: translateX(-200%);
+    transform: translateX(-200%);
+}
+
+.wrapper-colorful-bg .basic li:nth-child(1) {
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    -mos-animation-delay: 0.1s;
+    -o-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(2), .wrapper-colorful-bg .premium li:nth-child(1) {
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -mos-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(3), .wrapper-colorful-bg .premium li:nth-child(2), .wrapper-colorful-bg .plus li:nth-child(1) {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -mos-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(4), .wrapper-colorful-bg .premium li:nth-child(3), .wrapper-colorful-bg .plus li:nth-child(2), .wrapper-colorful-bg .business li:nth-child(1) {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -mos-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(5), .wrapper-colorful-bg .premium li:nth-child(4), .wrapper-colorful-bg .plus li:nth-child(3), .wrapper-colorful-bg .business li:nth-child(2) {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -mos-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(6), .wrapper-colorful-bg .premium li:nth-child(5), .wrapper-colorful-bg .plus li:nth-child(4), .wrapper-colorful-bg .business li:nth-child(3) {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -mos-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(7), .wrapper-colorful-bg .premium li:nth-child(6), .wrapper-colorful-bg .plus li:nth-child(5), .wrapper-colorful-bg .business li:nth-child(4) {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    -mos-animation-delay: 0.7s;
+    -o-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(8), .wrapper-colorful-bg .premium li:nth-child(7), .wrapper-colorful-bg .plus li:nth-child(6), .wrapper-colorful-bg .business li:nth-child(5) {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -mos-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(9), .wrapper-colorful-bg .premium li:nth-child(8), .wrapper-colorful-bg .plus li:nth-child(7), .wrapper-colorful-bg .business li:nth-child(6) {
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -mos-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(10), .wrapper-colorful-bg .premium li:nth-child(9), .wrapper-colorful-bg .plus li:nth-child(8), .wrapper-colorful-bg .business li:nth-child(7) {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -mos-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(11), .wrapper-colorful-bg .premium li:nth-child(10), .wrapper-colorful-bg .plus li:nth-child(9), .wrapper-colorful-bg .business li:nth-child(8) {
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+    -mos-animation-delay: 1.1s;
+    -o-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+
+.wrapper-colorful-bg .basic li:nth-child(12), .wrapper-colorful-bg .premium li:nth-child(11), .wrapper-colorful-bg .plus li:nth-child(10), .wrapper-colorful-bg .business li:nth-child(9) {
+    -webkit-animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -mos-animation-delay: 1.2s;
+    -o-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+.wrapper-colorful-bg .premium li:nth-child(12), .wrapper-colorful-bg .plus li:nth-child(11), .wrapper-colorful-bg .business li:nth-child(10) {
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+    -mos-animation-delay: 1.3s;
+    -o-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+
+.wrapper-colorful-bg.plus li:nth-child(12), .wrapper-colorful-bg .business li:nth-child(11) {
+    -webkit-animation-delay: 1.4s;
+    -moz-animation-delay: 1.4s;
+    -mos-animation-delay: 1.4s;
+    -o-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.wrapper-colorful-bg .business li:nth-child(12) {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    -mos-animation-delay: 1.5s;
+    -o-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+@-webkit-keyframes start {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-moz-keyframes start {
+    0% {
+        -moz-transform: translateY(-100%);
+    }
+    100% {
+        -moz-transform: translateY(0%);
+    }
+}
+
+@-mos-keyframes start {
+    0% {
+        -mos-transform: translateY(-100%);
+    }
+    100% {
+        -mos-transform: translateY(0%);
+    }
+}
+
+@-o-keyframes start {
+    0% {
+        -o-transform: translateY(-100%);
+    }
+    100% {
+        -o-transform: translateY(0%);
+    }
+}
+
+@keyframes start {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes start-li {
+    0% {
+        -webkit-transform: translateX(-200%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+@-moz-keyframes start-li {
+    0% {
+        -moz-transform: translateX(-200%);
+    }
+    100% {
+        -moz-transform: translateX(0%);
+    }
+}
+
+@-mos-keyframes start-li {
+    0% {
+        -mos-transform: translateX(-200%);
+    }
+    100% {
+        -mos-transform: translateX(0%);
+    }
+}
+
+@-o-keyframes start-li {
+    0% {
+        -o-transform: translateX(-200%);
+    }
+    100% {
+        -o-transform: translateX(0%);
+    }
+}
+
+@keyframes start-li {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.wrapper-colorful-bg ul li {
+    color: #eee;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* mobile */
+
+@media screen and (max-width:1100px) {
+    .wrapper-colorful-bg {
+        width: 100%;
+    }
+    .wrapper-colorful-bg ul {
+        position: relative;
+        width: 100%;
+        min-width: 5.25em;
+        list-style: none;
+        float: left;
+        font-family: Open Sans;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -mos-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .wrapper-colorful-bg {
+        width: 100%;
+    }
+    .wrapper-colorful-bg ul {
+        position: relative;
+        width: 100%;
+        //min-width: 5.25em;
+        list-style: none;
+        float: left;
+        font-family: Open Sans;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -mos-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+.wrapper-colorful-bg .basic {
+    position: relative;
+    background: rgba(0, 92, 90, 0.75);
+}
+
+.wrapper-colorful-bg .premium {
+    position: relative;
+    background: rgba(25, 156, 123, 0.75);
+}
+
+.wrapper-colorful-bg .plus {
+    position: relative;
+    background: rgba(243, 113, 0, 0.75);
+}
+
+.wrapper-colorful-bg .business {
+    position: relative;
+    background: rgba(237, 77, 19, 0.75);
+}
+
+.wrapper-colorful-bg ul .icon {
+    position: relative;
+    height: 10em;
+    width: 10em;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 1em auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.wrapper-colorful-bg .basic .icon:before {
+    position: absolute;
+    top: .8em;
+    bottom: 0;
+    left: -0.15em;
+    right: 0;
+    margin: auto;
+    content: '\f1d8';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful-bg .premium .icon:before {
+    position: absolute;
+    top: .9em;
+    bottom: 0;
+    left: 0.05em;
+    right: 0;
+    margin: auto;
+    content: '\f108';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful-bg .plus .icon:before {
+    position: absolute;
+    top: .75em;
+    bottom: 0;
+    left: 0em;
+    right: 0;
+    margin: auto;
+    content: '\f087';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful-bg .business .icon:before {
+    position: absolute;
+    top: .75em;
+    bottom: 0;
+    left: -0.1em;
+    right: 0;
+    margin: auto;
+    content: '\f135';
+    font-family: FontAwesome;
+    font-size: 4em;
+}
+
+.wrapper-colorful-bg .basic:hover .icon:before {
+    color: #005C5A;
+}
+
+.wrapper-colorful-bg .premium:hover .icon:before {
+    color: #199C7B;
+}
+
+.wrapper-colorful-bg .plus:hover .icon:before {
+    color: #F37100;
+}
+
+.wrapper-colorful-bg .business:hover .icon:before {
+    color: #ED4D13;
+}
+
+.wrapper-colorful-bg ul .icon:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 242, 242, 0.75);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-transform: scale(0, 0);
+    -moz-transform: scale(0, 0);
+    -mos-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.wrapper-colorful-bg ul:hover .icon:after {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -mos-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.wrapper-colorful-bg ul .name {
+    height: 2em;
+    line-height: 2em;
+    -webkit-transition: all 0.25s ease 0.15s;
+    -moz-transition: all 0.25s ease 0.15s;
+    -mos-transition: all 0.25s ease 0.15s;
+    -o-transition: all 0.25s ease 0.15s;
+    transition: all 0.25s ease 0.15s;
+}
+
+.wrapper-colorful-bg ul:hover .name {
+    -webkit-box-shadow: inset 0px -2em 0px 0px rgba(239, 239, 239, 0.25);
+    -moz-box-shadow: inset 0px -2em 0px 0px rgba(239, 239, 239, 0.25);
+    box-shadow: inset 0px -2em 0px 0px rgba(239, 239, 239, 0.25);
+}
+
+.wrapper-colorful-bg ul .name h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful-bg ul:hover .name h1 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.wrapper-colorful-bg ul .price-col {
+    height: 1.5em;
+    line-height: 1.25em;
+    font-size: 4em;
+    font-family: 'exo_2.0extra_light';
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful-bg ul .price-col .cost {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: inset 0px -0em 0px 0px rgba(239, 239, 239, 1);
+    -moz-box-shadow: inset 0px -0em 0px 0px rgba(239, 239, 239, 1);
+    box-shadow: inset 0px -0em 0px 0px rgba(239, 239, 239, 1);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful-bg ul:hover .price-col .cost {
+    position: relative;
+    -webkit-box-shadow: inset 0px -1.5em 0px 0px rgba(239, 239, 239, 0.75);
+    -moz-box-shadow: inset 0px -1.5em 0px 0px rgba(239, 239, 239, 0.75);
+    box-shadow: inset 0px -1.5em 0px 0px rgba(239, 239, 239, 0.75);
+}
+
+.wrapper-colorful-bg .basic:hover .price-col .cost {
+    color: #005C5A;
+}
+
+.wrapper-colorful-bg .premium:hover .price-col .cost {
+    color: #199C7B;
+}
+
+.wrapper-colorful-bg .plus:hover .price-col .cost {
+    color: #F37100;
+}
+
+.wrapper-colorful-bg .business:hover .price-col .cost {
+    color: #ED4D13;
+}
+
+.wrapper-colorful-bg ul .price-col .cost .valuta {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 400;
+    display: inline-table;
+    vertical-align: super;
+}
+
+.wrapper-colorful-bg ul .price-col .cost .mounthly {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    display: inline-table;
+    text-transform: uppercase
+}
+
+.wrapper-colorful-bg ul .description-range {
+    height: 2em;
+    line-height: 2em;
+}
+
+.wrapper-colorful-bg ul .description-range:after {
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+    left: 0%;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful-bg ul .description-range:hover:after {
+    width: 100%;
+}
+
+.wrapper-colorful-bg .description-range:before {
+    position: absolute;
+    font-family: FontAwesome;
+    font-weight: normal;
+    width: 2em;
+    font-size: 1em;
+    left: -1.5em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful-bg .description-range:hover:before {
+    left: 1em;
+}
+
+.wrapper-colorful-bg .description-range:nth-child(3):before {
+    content: '\f0a0';
+}
+
+.wrapper-colorful-bg .description-range:nth-child(4):before {
+    content: '\f1d9';
+}
+
+.wrapper-colorful-bg .description-range:nth-child(5):before {
+    content: '\f003';
+}
+
+.wrapper-colorful-bg .description-range:nth-child(6):before {
+    content: '\f0ac';
+}
+
+.wrapper-colorful-bg .description-range:nth-child(7):before {
+    content: '\f023';
+}
+
+.wrapper-colorful-bg .description-range:nth-child(8):before {
+    content: '\f133';
+}
+
+.wrapper-colorful-bg .description-range:nth-child(9):before {
+    content: '\f0e8';
+}
+
+.wrapper-colorful-bg .description-range:before {
+    content: '\f006';
+}
+
+.wrapper-colorful-bg ul .purchase {
+    height: 3em;
+    line-height: 3em;
+}
+
+.wrapper-colorful-bg ul .purchase a {
+    position: relative;
+    padding: 0.5em;
+    border: 4px solid rgba(239, 239, 239, 0.5);
+    ;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -mos-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper-colorful-bg .basic .purchase a {
+    color: #fff;
+    background: #005C5A;
+    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
+    -moz-box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
+    box-shadow: inset 0px 0px 0px 0px rgba(239, 239, 239, 1);
+}
+
+.wrapper-colorful-bg .premium .purchase a {
+    color: #fff;
+    background: #199C7B;
+}
+
+.wrapper-colorful-bg .plus .purchase a {
+    color: #fff;
+    background: #F37100;
+}
+
+.wrapper-colorful-bg .business .purchase a {
+    color: #fff;
+    background: #ED4D13;
+}
+
+.wrapper-colorful-bg ul .purchase a:hover {
+    color: #005C5A;
+    -webkit-box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
+    -moz-box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
+    box-shadow: inset 0px -40px 0px 0px rgba(239, 239, 239, 1);
+}
+
+.wrapper-colorful-bg .premium .purchase a:hover {
+    color: #199C7B;
+}
+
+.wrapper-colorful-bg .plus .purchase a:hover {
+    color: #F37100;
+}
+
+.wrapper-colorful-bg .business .purchase a:hover {
+    color: #ED4D13;
+}
+
+.wrapper-colorful-bg ul .purchase:before {
+    position: absolute;
+    content: '';
+    background: rgba(239, 239, 239, 0.5);
+    ;
+    width: 50%;
+    height: 1em;
+    bottom: 1em;
+    left: 25%;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -mos-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.wrapper-colorful-bg ul:hover .purchase:before {
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 1em;
+    left: 5%;
+}
