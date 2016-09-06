@@ -16,9 +16,15 @@ body {
 
 #flyer{
   height: 100%;
+  text-align: center;
 }
 #flyer img{
   height: 100%;
+  display:block;
+  margin: auto;
+}
+
+#live {
   display:block;
   margin: auto;
 }
