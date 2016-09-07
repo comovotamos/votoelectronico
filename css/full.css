@@ -9,9 +9,9 @@ html {
 }
 
 body {
-    background-color: #4e7ec0;
-    height: 100%;
-    width: 100%;
+  background-color: #4e7ec0;
+  height: 100%;
+  width: 100%;
 }
 
 #flyer {
@@ -21,11 +21,19 @@ body {
 
 #flyer img {
   height: 100%;
-  display:block;
+  display: block;
   margin: auto;
 }
 
-#live {
-  display:block;
-  margin: auto;
+#foro_video {
+  background: url('../imgs/flyer-vid.jpg') no-repeat top left transparent;
+  width: 1200px;
+  height: 847px;
+  position: relative;
+}
+
+#foro_video iframe {
+  position: absolute;
+  top: 400px;
+  left: 447px;
 }
