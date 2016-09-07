@@ -4,6 +4,8 @@ El presente es un esfuerzo colectivo por aunar información respecto del **Voto 
 
 Creamos un [sitio web](http://comovotamos.org) cuyo repositorio público es el presente, y un [repositorio con la información en bruto](https://github.com/comovotamos/votoelectronico-data).
 
+Nota: la web se encuentra en el [branch gh-pages](https://github.com/comovotamos/votoelectronico/tree/gh-pages).
+
 ## Compartir
 
 Toda la información aquí contenida se encuentra bajo distintas licencias, siendo que la hemos compilado de distintos sitios. La que hemos producido nosotros se encuentra bajo [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es).
