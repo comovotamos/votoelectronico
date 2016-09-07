@@ -3,7 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-html{
+html {
   height: 100%;
   width: 100%;
 }
@@ -14,11 +14,12 @@ body {
     width: 100%;
 }
 
-#flyer{
+#flyer {
   height: 100%;
   text-align: center;
 }
-#flyer img{
+
+#flyer img {
   height: 100%;
   display:block;
   margin: auto;
