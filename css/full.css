@@ -17,6 +17,7 @@ body {
 #flyer {
   height: 100%;
   text-align: center;
+  margin: 50px;
 }
 
 #flyer img {
